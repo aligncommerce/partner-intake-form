@@ -10,7 +10,7 @@ It expects a submission webhook URL configured in:
 
 ## 1. Static site deployment
 
-Deploy the contents of [veem-partner-onboarding](/Users/danielsinukoff/Documents/veem-partner-onboarding) so these files resolve:
+Deploy the contents of the `site/partner-onboarding/` folder so these files resolve:
 
 - `/partner-onboarding/`
 - `/partner-onboarding/app.js`
@@ -103,7 +103,7 @@ Recommended production behavior:
 - use `summary` for email/slack-friendly notifications
 - use `selectedDocuments` if you want document-based routing or tagging
 
-There is still a sample Node implementation in [deployment/email-submission-handler.example.js](/Users/danielsinukoff/Documents/veem-partner-onboarding/deployment/email-submission-handler.example.js) if you ever decide to place your own backend between the site and Zapier.
+There is still a sample Node implementation in `deployment/email-submission-handler.example.js` if you ever decide to place your own backend between the site and Zapier.
 
 ## 4. Config example
 
