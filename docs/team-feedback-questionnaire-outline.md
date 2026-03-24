@@ -238,9 +238,6 @@ This page is intended to capture operating model and licensing context without a
 
 - Are you currently in the flow of funds business?
   Options: Yes, No
-- Please provide a flow of funds chart
-  Field type: File upload
-  Note: optional and only shown when `Yes` is selected above
 - Are you licensed in the countries in which you operate?
   Options: Yes, No
 - Do you hold any additional licenses?

@@ -91,7 +91,7 @@ The sidebar uses progressive locking:
 - Added `Sole proprietors` to relevant user-type questions
 - Removed numeric placeholders from payer / payee count fields
 - Made `Are these users actual or estimated?` required with no default selection
-- Replaced the old `Who is the end customer?` question with an optional flow-of-funds chart upload when the business is in the flow of funds
+- Replaced the old `Who is the end customer?` question with current flow-of-funds business status questions
 - Updated Review summary behavior and document page messaging
 
 ## Current product scope
@@ -144,7 +144,6 @@ The project is still being refined in these areas:
 
 - The app is static and does not require a build step.
 - The thank-you page recommends downloadable documents based on answers in the form.
-- The optional flow-of-funds upload is currently a UI-level file picker; it does not implement full backend file storage.
 - The deployment folder includes an example backend handler, but backend integration may still need production wiring depending on deployment target.
 
 ## How to continue work safely
@@ -165,6 +164,5 @@ The project is still being refined in these areas:
 
 - finalize visual cleanup for hosted rendering
 - confirm remaining stakeholder feedback on wording and section order
-- decide whether the file upload needs real backend handling
 - do a final sync pass between app behavior and the review questionnaire doc
 - prepare a stable release / deployment pass once content and styling are approved

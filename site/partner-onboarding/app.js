@@ -778,18 +778,6 @@ function renderRoleStep() {
             ])}
           </div>
 
-          ${
-            state.role.inFlow === "yes"
-              ? renderFileField(
-                  "Please provide a flow of funds chart (optional)",
-                  "role.flowOfFundsChart",
-                  state.role.flowOfFundsChart,
-                  ".pdf,.png,.jpg,.jpeg,.doc,.docx,.ppt,.pptx,.xls,.xlsx",
-                  "Upload a file if available."
-                )
-              : ""
-          }
-
           <div class="field is-half">
             <label>Are you licensed in the countries in which you operate? *</label>
             ${renderSegmentedButtons("role.licensed", state.role.licensed, [
@@ -2188,7 +2176,6 @@ function buildSummary() {
     "",
     `Selected flows: ${selectedFlows.length ? formatList(selectedFlows) : "N/A"}`,
     `Flow of funds business: ${state.role.inFlow || "N/A"}`,
-    `Flow of funds chart: ${state.role.flowOfFundsChart?.name || "N/A"}`,
     `Licensed in operating countries: ${state.role.licensed || "N/A"}`,
     `Additional licenses: ${state.role.additionalLicenses || "N/A"}`,
     `Additional license locations: ${state.role.additionalLicenseLocations || "N/A"}`,
