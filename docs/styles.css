@@ -353,7 +353,6 @@ button {
   background: linear-gradient(135deg, #0f79d6, #22c4d8);
   color: #10263d;
   border-color: transparent;
-  box-shadow: 0 12px 24px rgba(34, 196, 216, 0.2);
 }
 
 .step-item.is-complete {
@@ -492,7 +491,6 @@ button {
   background: linear-gradient(135deg, #ff8a00, #ff9b1f);
   color: #ffffff;
   font-weight: 800;
-  box-shadow: 0 16px 24px rgba(255, 138, 0, 0.24);
 }
 
 
